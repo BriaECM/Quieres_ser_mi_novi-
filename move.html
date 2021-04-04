@@ -3,37 +3,39 @@
 <head> 
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>HOLA</title>
+    <title>Quieres?</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <style>
-        /*Cuerpo del programa*/
         body {
-            background-color: rgba(182, 21, 102, 0.856); /*Color de fondo "Se puede cambiar al que uno quiera"*/
+            background-color: pink;
         }
     </style>
     <script>//Salida de texto
-        function answerSi (){ /*monitoreo de  "opcion de si o puede variar"*/
-            alert('Gracias, regresamos temprano');/*Respuesta de la pestaña al detectar un clic en la opcion*/
+        function answerSi (){ 
+            alert('Sabia que querias ser mi nobi@');
+            
         }
 
-        function move(){ /*Funcion de movimiento cuando el cursor entre en contacto con la cajita no*/
-            width = window.innerWidth; /*Movimiento en horizontal*/
-            height = window.innerHeight; /*Movimiento en vertical*/
+        function move(){ 
+            width = window.innerWidth; 
+            height = window.innerHeight;
 
-            newWidth = (Math.random() * width); /*Numero aleatorio dentro de las coordenadas del plano cartesiano*/
-            newHeight = (Math.random() * height); /*Numero aleatorio dentro de las coordenadas del plano cartesiano*/
+            newWidth = (Math.random() * width); 
+            newHeight = (Math.random() * height); 
 
-            document.getElementById('btnNo').style.position = "absolute"; /*Documento del boton "No" se mostrara en
-                                                                         un aposicion entera dentro de la pagina*/
-            document.getElementById('btnNo').style.left = newWidth + "px";  /*movimiento del boton No en horizontal*/
-            document.getElementById('btnNo').style.top = newHeight + "px";  /*movimiento del boton No en vertical*/
+            document.getElementById('btnNo').style.position = "absolute"; 
+            document.getElementById('btnNo').style.left = newWidth + "px";  
+            document.getElementById('btnNo').style.top = newHeight + "px";  
         }
     </script>
 </head>
 <body>
-    <h3>Hola buenas tardes suegra</h3>
-    <h3>¿Deja salir este fin de semana a Naomi?</h3>
+    <h1>Queres ser mi nobi@? UwU</h1>
+    <h2>No te resistas a chuerk</h2>
+    <div align = "center">
     <input type="button" onclick="answerSi()" id="btnSi" value="Si" />
     <input type="button" id="btnNo" onmouseover="move()" value="No" />
+    <br><img src="chuerk.png" width="300">    
+    </div>
 </body>
 </html>
