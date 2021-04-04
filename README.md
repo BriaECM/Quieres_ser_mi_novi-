@@ -5,7 +5,7 @@ Pasos para poder tener a su novi@
 4. Descarga la imagen de Shrek y colocala dentro de la carpeta con un nombre sencillo. link imagen https://www.pngegg.com/es/png-wsggu
 5. Abre la herramienta de Visual Studio code y cierra la pestaña de bienvenida, dirijete a la esquina superior Izquiera en el icono con el nombre
    "Explorador de archivos" y busca la carpeta en donde colocaste la imagen.
-6. Da clic en la opcion de "Nuevo archivo", coloca el nombre qeu quieras y añade la extension ".html", ejemplo: Propuesta.html
+6. Da clic en la opcion de "Nuevo archivo", coloca el nombre que quieras y añade la extension ".html", ejemplo: Propuesta.html
 7. Cuando tengas tu nuevo archivo, copia el programa que esta en GitHub y pegalo dentro de tu pestaña vacia en Visual Studio code.
 8. Dirigete a la linea 38 y coloca el nombre de la imagen que descargaste junto con su extension, ejemplo: chuerk.png
 9. Una vez que hayan terminado, presionan la combinacion de teclas "Ctrl+s" para guardar su programa.
